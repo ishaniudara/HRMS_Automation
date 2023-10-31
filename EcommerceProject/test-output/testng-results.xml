@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-27T15:19:59 IST" name="Suite" finished-at="2023-10-27T15:19:59 IST" duration-ms="0">
+    <groups>
+      <group name="smoke">
+        <method signature="IndexPageTest.login(java.lang.String, java.lang.String)[pri:0, instance:com.EcommerceProject.TestCases.IndexPageTest@693fe6c9]" name="login" class="com.EcommerceProject.TestCases.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.EcommerceProject.TestCases.IndexPageTest@693fe6c9]" name="verifyLogo" class="com.EcommerceProject.TestCases.IndexPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+  </suite> <!-- Suite -->
+</testng-results>
