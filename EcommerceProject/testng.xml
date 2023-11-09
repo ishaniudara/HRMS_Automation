@@ -10,10 +10,11 @@
 	  
 		
     <classes>
-      <class name="com.EcommerceProject.TestCases.IndexPageTest"/>
+     <!-- <class name="com.EcommerceProject.TestCases.IndexPageTest"/>
       <class name="com.EcommerceProject.TestCases.LeavePageTest"/>
       <class name="com.EcommerceProject.TestCases.PIMtest"/>
-      <class name="com.EcommerceProject.TestCases.DashBoardTest"/>
+      <class name="com.EcommerceProject.TestCases.DashBoardTest"/> Test -->
+        <class name="com.EcommerceProject.TestCases.ClaimTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> 
 </suite> <!-- Suite -->

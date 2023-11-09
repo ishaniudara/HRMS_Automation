@@ -735,15 +735,15 @@ public class ActionClass extends BaseClass implements ActionInterface
 	@Override
 	public void fluentWait(WebDriver driver,WebElement element, int timeOut) {
 	    Wait<WebDriver> wait = null;
-	    try {
-	        wait = new FluentWait<WebDriver>((WebDriver) driver)
-	        		.withTimeout(Duration.ofSeconds(20))
-	        	    .pollingEvery(Duration.ofSeconds(2))
-	        	    .ignoring(Exception.class);
-	        wait.until(ExpectedConditions.visibilityOf(element));
-	        element.click();
-	    }catch(Exception e) {
-	    }
+//	    try {
+//	        wait = new FluentWait<WebDriver>((WebDriver) driver)
+//	        		.withTimeout(Duration.ofSeconds(20))
+//	        	    .pollingEvery(Duration.ofSeconds(2))
+//	        	    .ignoring(Exception.class);
+//	        wait.until(ExpectedConditions.visibilityOf(element));
+//	        element.click();
+//	    }catch(Exception e) {
+//	    }
 	}
 	@Override
 	public void implicitWait(WebDriver driver, int timeOut) {

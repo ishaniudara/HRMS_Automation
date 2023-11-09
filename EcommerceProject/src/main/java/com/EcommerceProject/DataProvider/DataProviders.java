@@ -36,7 +36,22 @@ public class DataProviders {
 		return data;
 		
 	}
-
-	  
+	@DataProvider(name = "AssignClaim")
+	  public Object[][] getClaimData(){
+		  int rows=obj.getRowCount("AssignClaim");
+		  int columns=obj.getColumnCount("AssignClaim");
+		  int actRows=rows-1;
+		  
+		  Object[][] data=new Object[actRows][columns];
+		  
+		  for (int i=0;i<actRows;i++) {
+			  for (int j=0; j<columns;j++) {
+				  data[i][j]=obj.getCellData("AssignClaim", j, i+2);
+				  
+			  }
+			  
+		  }
+		  return data;
+	  }
 
 }
